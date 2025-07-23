@@ -1,0 +1,102 @@
+/* media query for large devices*/
+@media (max-width:1024px) {}
+
+/* media query for mobile devices */
+@media (max-width:576px) {
+
+    /* navbar part */
+    nav {
+        margin: 0 20px;
+        align-items: center;
+       
+    }
+
+
+    .icons .unhide-ul {
+        display: none;
+    }
+
+    .icons .ul-hide {
+        display: block;
+    }
+   .icons ul li:last-child a{
+    font-size: 25px;
+   }
+
+    /* banner part */
+    .banner {
+        margin: 30px 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner .text-content {
+        max-width: 100%;
+
+    }
+
+    .banner .text-content h2, .red-span {
+        font-size: 24px;
+    }
+
+    .banner .text-content p {
+        font-size: 14px;
+    }
+
+    .banner .img {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* our plants section */
+    .our-plants {
+        margin: 0 20px;
+    }
+
+    .our-plants .content h2 {
+        font-size: 24px;
+
+    }
+
+    .our-plants .content p {
+        font-size: 14px;
+    }
+    .plant-grid div .flower-title, .plant-grid div .flower-price{
+        font-size: 16px;
+    }
+
+    .plant-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    /* challenge part trusted plant lover */
+    .challenge-trusted-plant-lover .img img{
+        display: none;
+    }
+    .challenge-trusted-plant-lover{
+        flex-direction: column;
+        margin: 40px 0;
+    }
+    .challenge-trusted-plant-lover .content{
+        max-width: 100%;
+        padding: 0;
+      
+        margin: 30px 20px;
+    }
+    .challenge-trusted-plant-lover .content ul li{
+        margin-left: 20px;
+    }
+    .challenge-trusted-plant-lover .content h2{
+        font-size: 24px;
+        display: inline;
+        text-align: left;
+        
+    }
+    .challenge-trusted-plant-lover .content p{
+        font-size: 14px;
+    }
+    
+
+
+}
