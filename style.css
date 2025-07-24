@@ -26,9 +26,20 @@ body {
 .icons .ul-hide {
     display: none;
 }
-
-nav {
+ 
+.nav{
     display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    display: none;
+
+}
+nav {
+    
+    display: flex;
+    
     justify-content: space-between;
     align-items: center;
     max-width: 100vw;
