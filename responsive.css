@@ -1,5 +1,7 @@
 /* media query for large devices*/
-@media (max-width:1024px) {}
+@media (max-width:1024px) {
+
+}
 
 /* media query for mobile devices */
 @media (max-width:576px) {
@@ -8,20 +10,27 @@
     nav {
         margin: 0 20px;
         align-items: center;
+        position: relative;
        
     }
 
 
     .icons .unhide-ul {
         display: none;
+        
+       
     }
 
     .icons .ul-hide {
-        display: block;
+        display: inline-block;
     }
    .icons ul li:last-child a{
     font-size: 25px;
-   }
+    position: absolute;
+    right: 0px;
+    top:34px ;
+    }
+   
 
     /* banner part */
     .banner {
