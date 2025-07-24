@@ -5,9 +5,11 @@
         padding-top: 20px;
     }
 }
+
 @media (max-width:768px) {
+
     /* navbar part */
-     nav {
+    nav {
         margin-top: 10px;
         align-items: center;
         position: relative;
@@ -31,18 +33,18 @@
         right: 0px;
         top: 34px;
     }
+
     /* banner part */
-    
+
 }
 
 /* media query for mobile devices */
 @media (max-width:576px) {
 
     /* navbar part */
-    
-
-    nav {
-        margin: 10px 20px;
+     nav {
+        margin-top: 10px ;
+        margin: 10px 10%;
         align-items: center;
         position: relative;
 
@@ -232,7 +234,7 @@
         border: none;
         font-size: 14px;
         width: 60vw;
-        margin-left: 20px;
+        /* margin-left: 20px; */
 
         padding: 20px 8px;
 
@@ -240,7 +242,7 @@
 
     .buttons button {
         width: 127px;
-        margin-right: 20px;
+        /* margin-right: 20px; */
 
     }
 
@@ -276,8 +278,16 @@
 
 
     }
+    
+    
 
 
 
+   
+}
 
+/* lerge mobile */
+@media (max-width:424px) {
+   
+    
 }
