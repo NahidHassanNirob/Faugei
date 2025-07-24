@@ -68,6 +68,7 @@
 
     .plant-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
 
     }
     /* challenge part trusted plant lover */
@@ -82,10 +83,11 @@
         max-width: 100%;
         padding: 0;
       
-        margin: 30px 20px;
+        margin: 30px 0 0 0;
     }
     .challenge-trusted-plant-lover .content ul li{
         margin-left: 20px;
+        font-size: 14px;
     }
     .challenge-trusted-plant-lover .content h2{
         font-size: 24px;
@@ -100,17 +102,45 @@
        width: 100%;
         
     }
+
+    /* challenge part letest deal */
+    .letest-deal{
+        margin: 30px 20px;
+
+    }
+    .letest-deal .letest-deal-title h2{
+        font-size: 24px;
+    }
+    .letest-deal .letest-deal-title p{
+        font-size: 14px;
+    }
+    .letest-deal .deal-grid{
+        grid-template-columns: repeat(1, 1fr);
+         
+         gap: 26px;
+         grid-template-rows: auto;
+    
+   
+    }
+    .letest-deal .zabo-plant{
+        grid-row: auto;
+   }
+   .letest-deal .deal-grid .zabo-plant, .letest-deal .bloom-plant, .letest-deal .ana-plant{
+    height: 206px;
+   }
+   .deal-grid div{
+    line-height: 30px;
+   }
+   .deal-grid .zabo-plant h2{
+    font-size: 20px;
+
+}
+.deal-grid .zabo-plant span{
+    font-size: 16px;
+    text-underline-offset: 4px;
+}
     
 
 
 }
 
-/* M mobile devices */
-
-/* @media (max-width:375px) {
-    .challenge-trusted-plant-lover .img{
-       margin: 0 50px;
-        
-    }
-    
-} */
