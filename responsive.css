@@ -192,6 +192,7 @@
     /* join section */
     .join {
         height: 267px;
+        /* padding: 0 20px; */
         
     }
 
@@ -204,7 +205,8 @@
     .buttons input {
         border: none;
         font-size: 14px;
-        width: 218px;
+        width: 200px;
+        margin-left: 20px;
 
         padding: 20px 8px;
 
@@ -212,6 +214,7 @@
 
     .buttons button {
         width: 130px;
+        margin-right: 20px;
 
     }
 

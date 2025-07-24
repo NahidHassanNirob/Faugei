@@ -377,6 +377,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .join h2 {
@@ -395,7 +396,7 @@ nav {
     border: none;
     font-size: 16px;
     height: 50px;
-    width: 644px;
+    width: 60vw;
     outline: none;
     padding: 20px 8px;
 
@@ -405,7 +406,7 @@ nav {
 
 .buttons button {
     height: 50px;
-    width: 186px;
+    width: 18vw;
     border: none;
     padding: 0 26px;
     background-color: var(--primaryColorRed);
