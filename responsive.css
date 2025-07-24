@@ -42,9 +42,8 @@
 @media (max-width:576px) {
 
     /* navbar part */
-     nav {
-        margin-top: 10px ;
-        margin: 10px 10%;
+    nav {
+        margin: 10px 20px;
         align-items: center;
         position: relative;
 
@@ -220,7 +219,8 @@
     /* join section */
     .join {
         height: 267px;
-        /* padding: 0 20px; */
+
+
 
     }
 
@@ -234,7 +234,7 @@
         border: none;
         font-size: 14px;
         width: 60vw;
-        /* margin-left: 20px; */
+
 
         padding: 20px 8px;
 
@@ -242,7 +242,7 @@
 
     .buttons button {
         width: 127px;
-        /* margin-right: 20px; */
+
 
     }
 
@@ -278,16 +278,13 @@
 
 
     }
-    
-    
 
 
 
-   
+
+
+
 }
 
 /* lerge mobile */
-@media (max-width:424px) {
-   
-    
-}
+@media (max-width:424px) {}
