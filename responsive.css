@@ -94,16 +94,16 @@
     }
 
     /* our plants section */
-    .our-plants {
+    #our-plants {
         margin: 0 20px;
     }
 
-    .our-plants .content h2 {
+    #our-plants .content h2 {
         font-size: 24px;
 
     }
 
-    .our-plants .content p {
+    #our-plants .content p {
         font-size: 14px;
     }
 
@@ -245,21 +245,21 @@
     }
 
     /* footer section */
-    .main {
+    #main {
         flex-direction: column;
         margin: 0 20px;
 
     }
 
-    .main .text {
+    #main .text {
         margin: 30px 0 24px;
     }
 
-    .main .text p {
+    #main .text p {
         font-size: 16px;
     }
 
-    .main ul li {
+    #main ul li {
         font-size: 16px;
     }
 
