@@ -1,20 +1,27 @@
 /* media query for large devices*/
-@media (max-width:1024px) {}
+@media (max-width:1024px) {
+    .challenge-trusted-plant-lover .content {
+        padding-left: 95px;
+        padding-top: 20px;
+    }
+}
 
 /* media query for mobile devices */
 @media (max-width:576px) {
 
     /* navbar part */
-    .nav{
+    .nav {
         display: block;
         display: flex;
         margin: 10px 40px;
     }
-    .nav .time{
+
+    .nav .time {
         font-size: 17px;
         font-weight: 600;
         font-family: sans-serif;
     }
+
     nav {
         margin: 0 20px;
         align-items: center;
@@ -193,7 +200,7 @@
     .join {
         height: 267px;
         /* padding: 0 20px; */
-        
+
     }
 
     .join h2 {
