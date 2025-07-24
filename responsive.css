@@ -76,7 +76,7 @@
     }
     .challenge-trusted-plant-lover{
         flex-direction: column;
-        margin: 40px 0;
+        margin: 40px 20px;
     }
     .challenge-trusted-plant-lover .content{
         max-width: 100%;
@@ -96,7 +96,21 @@
     .challenge-trusted-plant-lover .content p{
         font-size: 14px;
     }
+    .challenge-trusted-plant-lover .img{
+       width: 100%;
+        
+    }
     
 
 
 }
+
+/* M mobile devices */
+
+/* @media (max-width:375px) {
+    .challenge-trusted-plant-lover .img{
+       margin: 0 50px;
+        
+    }
+    
+} */
