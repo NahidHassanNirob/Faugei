@@ -236,6 +236,8 @@ nav {
     position: absolute;
     top: -140px;
     right: -130px;
+     filter: drop-shadow(-4px 10px 4px gray);
+   
 }
 
 .challenge-trusted-plant-lover .content {
