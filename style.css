@@ -86,7 +86,17 @@ nav {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 500;
+    transition: hover ease-in-out 1s;
+    
 
+}
+.icons ul li .hover:hover{
+    color:red;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    
+    
+    
 }
 
 
