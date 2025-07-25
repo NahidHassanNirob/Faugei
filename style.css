@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #F5F5F5;
 
 
 }
@@ -98,8 +98,6 @@ nav {
     color: red;
     text-decoration: underline;
     text-underline-offset: 4px;
-
-
 
 }
 
@@ -246,21 +244,23 @@ nav {
     position: absolute;
     top: -140px;
     right: -130px;
-    filter: drop-shadow(0 0 10px rgba(0,0,0,0.4));
-    /* animation: spin 3s linear infinite; */ 
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
+    /* animation: spin 3s linear infinite; */
     animation: spin infinite 5s linear;
 
 }
+
 @keyframes spin {
-    from{
+    from {
         transform: rotate(0deg);
 
 
     }
-    to{
+
+    to {
         transform: rotate(360deg);
     }
-    
+
 }
 
 .challenge-trusted-plant-lover .content {
@@ -495,10 +495,12 @@ footer {
     display: flex;
     align-items: center;
     gap: 20px;
+
 }
 
 .icons div img {
     cursor: pointer;
+
 }
 
 footer .copyright {
