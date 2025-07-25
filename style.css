@@ -246,8 +246,21 @@ nav {
     position: absolute;
     top: -140px;
     right: -130px;
-    filter: drop-shadow(-4px 10px 4px gray);
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.4));
+    /* animation: spin 3s linear infinite; */ 
+    animation: spin infinite 5s linear;
 
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
 }
 
 .challenge-trusted-plant-lover .content {
