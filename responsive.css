@@ -278,6 +278,9 @@
 
 
     }
+    #main .text p br{
+        display: none;
+    }
 
     footer .copyright {
         margin: 20px 0 10px;
