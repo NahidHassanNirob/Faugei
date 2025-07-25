@@ -117,6 +117,9 @@
         gap: 15px;
 
     }
+    .plant-grid .hide{
+        display: none;
+    }
 
     /* challenge part trusted plant lover */
     .challenge-trusted-plant-lover .img img {
